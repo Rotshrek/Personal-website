@@ -13,6 +13,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Andrés Sanhueza
         </h1>
+        <p>
+          FrontEnd Developer
+        </p>
       </main>
 
       <footer className={styles.footer}>
