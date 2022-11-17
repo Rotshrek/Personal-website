@@ -26,7 +26,7 @@ export default function Home() {
                     <div className="h-full flex w-1/2">
                         <div className="m-auto">
                             <div className="h-1/4">
-                                <Image className="h-60 w-auto max-w-none opacity-80 grayscale" src="img/foto.jpg" />
+                                <Image className="h-60 w-auto max-w-none opacity-80 grayscale" src="img/foto.jpg" alt="Portrait" />
                             </div>
                             <div className="text-xl border-r-2 px-4 mt-8 text-right">
                                 <a
@@ -136,6 +136,7 @@ export default function Home() {
                             href="https://www.linkedin.com/in/aisanhueza/?locale=en_US"
                             className="block mb-4 cursor-pointer"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             linkedin.com/in/aisanhueza
                         </a>
