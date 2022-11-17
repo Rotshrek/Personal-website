@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Image from "next/image"
 
 export default function Home() {
     return (
@@ -25,7 +26,7 @@ export default function Home() {
                     <div className="h-full flex w-1/2">
                         <div className="m-auto">
                             <div className="h-1/4">
-                                <img className="h-60 w-auto max-w-none opacity-80 grayscale" src="img/foto.jpg" />
+                                <Image className="h-60 w-auto max-w-none opacity-80 grayscale" src="img/foto.jpg" />
                             </div>
                             <div className="text-xl border-r-2 px-4 mt-8 text-right">
                                 <a
