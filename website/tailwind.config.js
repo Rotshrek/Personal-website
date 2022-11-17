@@ -9,14 +9,17 @@ module.exports = {
             },
             keyframes: {
                 "passive-distort": {
-                    "0%": { "text-shadow": "-1px 2px 0 red, 2px -3px 0 blue" },
+                    "0%": { "text-shadow": "-2px 3px 0 red, 3px -4px 0 blue" },
                     "2%, 30%": { "text-shadow": "none" },
-                    "32%": { "text-shadow": "2px -2px 0 red, -2px 3px 0 blue" },
+                    "32%": { "text-shadow": "3px -4px 0 blue, -2px 5px 0 red" },
                     "34%, 50%": { "text-shadow": "none" },
-                    "51%": { "text-shadow": "0 -4px -4px green, 0 3px -4px blue" },
-                    "52%": { "text-shadow": "-3px 4px 0 blue, 2px -3px 0 red" },
-                    "53%": { "text-shadow": "-2px 3px 0 red, 2px -3px 0 green" },
-                    "54%, 100%": { "text-shadow": "none" },
+                    "51%": { "text-shadow": "0 -4px 2px green, 0 3px 2px blue", transform: "translateX(1px)" },
+                    "52%": {
+                        "text-shadow": "-3px 4px 2px blue, 2px -3px 2px red",
+                        transform: "translateY(1px), translateX(-1px)",
+                    },
+                    "53%": { "text-shadow": "-2px 3px 2px red, 2px -3px 2px green", transform: "translateY(-1px)" },
+                    "54%, 100%": { "text-shadow": "none", transform: "none" },
                 },
                 "hover-distort": {
                     "0%": {
