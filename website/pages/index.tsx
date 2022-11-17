@@ -17,9 +17,9 @@ export default function Home() {
                         </h1>
                         <div className="max-w-xl">
                             <p className="text-lg">
-                                I'm a FrontEnd Developer with a Designer background. I majored in design, taught myself
-                                how to code in Javascript, and I’ve being working as a FrontEnd dev for the past 5
-                                years. I like to build beautiful and functional digital products.
+                                {
+                                    "I'm a FrontEnd Developer with a Designer background. I majored in design, taught myself how to code in Javascript, and I’ve being working as a FrontEnd dev for the past 5 years. I like to build beautiful and functional digital products."
+                                }
                             </p>
                         </div>
                     </div>
