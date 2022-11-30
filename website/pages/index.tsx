@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
+import pic from "../public/img/foto.jpg"
 
 export default function Home() {
     return (
@@ -28,7 +29,7 @@ export default function Home() {
                             <div className="h-1/4">
                                 <Image
                                     className="h-60 w-auto max-w-none opacity-80 grayscale"
-                                    src="img/foto.jpg"
+                                    src={pic}
                                     alt="Portrait"
                                 />
                             </div>
