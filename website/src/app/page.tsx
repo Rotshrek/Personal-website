@@ -112,7 +112,7 @@ export default function Home() {
                                     <div>
                                         <p className="mb-2">
                                             Development and web design for the Conectter web app, a project and task
-                                            management solution. Built with AngularJS, Pug/Jade for HTML templating, ,
+                                            management solution. Built with AngularJS, Pug/Jade for HTML templating,
                                             and SASS for CSS preprocessing. Uses RESTful APIs to communicate with the
                                             backend.
                                         </p>
