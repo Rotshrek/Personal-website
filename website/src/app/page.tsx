@@ -14,9 +14,9 @@ export default function Home() {
                         </h1>
                         <div className="max-w-xl">
                             <p className="text-lg">
-                                {
-                                    "I'm a FrontEnd Developer with a Designer background. I majored in design, taught myself how to code in Javascript, and I’ve being working as a FrontEnd dev for the past 5 years. I like to build beautiful and functional digital products."
-                                }
+                                "I'm a FrontEnd Developer with a Designer background. I majored in design, taught myself
+                                how to code in Javascript, and I’ve being working as a FrontEnd dev for the past 5
+                                years. I like to build beautiful and functional digital products."
                             </p>
                         </div>
                     </div>
@@ -112,8 +112,8 @@ export default function Home() {
                                     <div>
                                         <p className="mb-2">
                                             Development and web design for the Conectter web app, a project and task
-                                            management solution. Built with AngularJS, Pug/Jade for HTML templating,
-                                            and SASS for CSS preprocessing. Uses RESTful APIs to communicate with the
+                                            management solution. Built with AngularJS, Pug/Jade for HTML templating, and
+                                            SASS for CSS preprocessing. Uses RESTful APIs to communicate with the
                                             backend.
                                         </p>
 
