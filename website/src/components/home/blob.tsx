@@ -46,7 +46,7 @@ const shapes = [
         "Z;",
 ]
 
-function Animation({ fill, duration }) {
+function Animation({ fill, duration }: { fill: string; duration: number }) {
     return (
         <path fill={fill}>
             <animate
@@ -69,7 +69,7 @@ export default function Blob() {
                     </pattern>
                 </defs>
 
-                <Animation fill="red" duration="6" />
+                <Animation fill="red" duration={6} />
             </svg>
 
             <svg className="absolute top-0 left-2 opacity-30" viewBox="0 0 420 420">
@@ -79,7 +79,7 @@ export default function Blob() {
                     </pattern>
                 </defs>
 
-                <Animation fill="blue" duration="7" />
+                <Animation fill="blue" duration={7} />
             </svg>
 
             <svg className="absolute top-0 left-0" viewBox="0 0 420 420">
@@ -89,7 +89,7 @@ export default function Blob() {
                     </pattern>
                 </defs>
 
-                <Animation fill="url(#bgImg)" duration="8" />
+                <Animation fill="url(#bgImg)" duration={8} />
             </svg>
 
             <Image className="absolute top-0 left-0" src={frontPic} alt="Portrait background" />
