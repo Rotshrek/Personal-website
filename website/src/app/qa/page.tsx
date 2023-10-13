@@ -23,8 +23,9 @@ export default function QA() {
                     >
                         accoding to UDI
                     </a>
-                    . My wife has a european citizenship, so I can also work in any other country in the European Union.
-                    My current residence permit is valid until 2027. I also have a norwegian ID number and bank account.
+                    . My wife has an european citizenship, so I can also work in any other country in the European
+                    Union. My current residence permit is valid until 2027. I also have a norwegian ID number and bank
+                    account.
                 </p>
 
                 <p className="mb-4 mt-6 font-bold">How did I learn to code?</p>

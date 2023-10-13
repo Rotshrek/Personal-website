@@ -10,6 +10,7 @@ module.exports = {
             animation: {
                 "passive-glitch": "passive-distort 10s linear infinite",
                 "hover-glitch": "hover-distort 1s linear infinite",
+                "border-wave": "border-wave 1s linear infinite",
             },
             keyframes: {
                 "passive-distort": {
@@ -66,6 +67,11 @@ module.exports = {
                     },
                     "90%, 95%": { "text-shadow": "none", transform: "none" },
                     "100%": { "text-shadow": "6px 6px 4px red, -8px -6px 4px red" },
+                },
+                "border-wave": {
+                    "0%": { "border-radius": "0%" },
+                    "50%": { "border-radius": "50%" },
+                    "100%": { "border-radius": "0%" },
                 },
             },
         },

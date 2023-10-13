@@ -1,7 +1,6 @@
 "use client"
 
-import Image from "next/image"
-import pic from "../../public/img/foto.jpg"
+import Blob from "@/components/home/blob"
 
 export default function Home() {
     return (
@@ -23,11 +22,7 @@ export default function Home() {
                     <div className="h-full flex w-1/2">
                         <div className="m-auto">
                             <div className="h-1/4">
-                                <Image
-                                    className="h-60 w-auto max-w-none opacity-80 grayscale"
-                                    src={pic}
-                                    alt="Portrait"
-                                />
+                                <Blob />
                             </div>
                             <div className="text-xl border-r-2 px-4 mt-8 text-right">
                                 <a
