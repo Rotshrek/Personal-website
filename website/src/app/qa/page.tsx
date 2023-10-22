@@ -2,7 +2,7 @@
 
 export default function QA() {
     return (
-        <main className="bg-zinc-900 text-white h-screen justify-between p-20">
+        <main className="bg-zinc-900 text-white md:h-screen justify-between p-12 md:p-20">
             <p className="text-2xl mb-8 font-bold">QA for recruiters</p>
 
             <div>
