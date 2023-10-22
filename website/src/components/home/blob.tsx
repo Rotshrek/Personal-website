@@ -54,7 +54,7 @@ function Animation({ fill, duration }: { fill: string; duration: number }) {
 export default function Blob() {
     return (
         <div className="relative h-auto min-h-[400px] md:h-[600px] w-screen md:w-[600px] max-w-none overflow-hidden md:overflow-visible">
-            <svg className="absolute top-2 left-0 opacity-30 -rotate-12" viewBox="0 0 420 420">
+            {/* <svg className="absolute top-2 left-0 opacity-30 -rotate-12" viewBox="0 0 420 420">
                 <defs>
                     <pattern id="bgImg" patternUnits="userSpaceOnUse" width="420" height="420">
                         <image href="/img/blob-bg.jpg" x="0" y="0" width="420" height="420" />
@@ -62,9 +62,9 @@ export default function Blob() {
                 </defs>
 
                 <Animation fill="red" duration={3} />
-            </svg>
+            </svg> */}
 
-            <svg className="absolute top-0 left-2 opacity-30 rotate-12" viewBox="0 0 420 420">
+            <svg className="absolute top-0 left-2 opacity-30" viewBox="0 0 420 420">
                 <defs>
                     <pattern id="bgImg" patternUnits="userSpaceOnUse" width="420" height="420">
                         <image href="/img/blob-bg.jpg" x="0" y="0" width="420" height="420" />

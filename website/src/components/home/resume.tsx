@@ -115,7 +115,9 @@ export default function Resume() {
                                 <a href="https://www.linkedin.com/in/javier-torres-cortes">
                                     linkedin.com/in/javier-torres-cortes
                                 </a>
-                                <a href="mailto:javier@cheetrack.com">javier@cheetrack.com</a>
+                                <a className="block" href="mailto:javier@cheetrack.com">
+                                    javier@cheetrack.com
+                                </a>
                             </div>
 
                             <div className="mb-6">
@@ -126,7 +128,9 @@ export default function Resume() {
                                 <a href="https://www.linkedin.com/in/felipe-vergara-4029104a">
                                     linkedin.com/in/felipe-vergara-4029104a
                                 </a>
-                                <a href="mailto:felipe@cheetrack.com">felipe@cheetrack.com</a>
+                                <a className="block" href="mailto:felipe@cheetrack.com">
+                                    felipe@cheetrack.com
+                                </a>
                             </div>
 
                             <div className="mb-6">
@@ -137,7 +141,9 @@ export default function Resume() {
                                 <a href="https://www.linkedin.com/in/bustamantemsergio">
                                     linkedin.com/in/bustamantemsergio
                                 </a>
-                                <a href="mailto:sergio@cheetrack.com">sergio@cheetrack.com</a>
+                                <a className="block" href="mailto:sergio@cheetrack.com">
+                                    sergio@cheetrack.com
+                                </a>
                             </div>
 
                             {/* <div>
