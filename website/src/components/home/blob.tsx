@@ -28,14 +28,6 @@ const shapes = [
         "C 120 420 100 420 60 390" +
         "C 0 320 20 240 100 200" +
         "Z;",
-    "M 160 120" +
-        "C 180 110 200 105 220 110" +
-        "C 280 114 330 160 340 180" +
-        "C 390 260 370 280 350 330" +
-        "C 340 360 320 380 190 390" +
-        "C 90 380 90 360 80 350" +
-        "C 70 320 20 200 160 120" +
-        "Z;",
     "M 60 240" +
         "C 60 160 140 140 180 140" +
         "C 210 140 255 160 275 180" +
@@ -61,26 +53,36 @@ function Animation({ fill, duration }: { fill: string; duration: number }) {
 
 export default function Blob() {
     return (
-        <div className="relative h-[600px] w-[600px] max-w-none">
-            <svg className="absolute top-2 left-0 opacity-30" viewBox="0 0 420 420">
+        <div className="relative h-auto min-h-[400px] md:h-[600px] w-screen md:w-[600px] max-w-none overflow-hidden md:overflow-visible">
+            <svg className="absolute top-2 left-0 opacity-30 -rotate-12" viewBox="0 0 420 420">
                 <defs>
                     <pattern id="bgImg" patternUnits="userSpaceOnUse" width="420" height="420">
                         <image href="/img/blob-bg.jpg" x="0" y="0" width="420" height="420" />
                     </pattern>
                 </defs>
 
-                <Animation fill="red" duration={6} />
+                <Animation fill="red" duration={3} />
             </svg>
 
-            <svg className="absolute top-0 left-2 opacity-30" viewBox="0 0 420 420">
+            <svg className="absolute top-0 left-2 opacity-30 rotate-12" viewBox="0 0 420 420">
                 <defs>
                     <pattern id="bgImg" patternUnits="userSpaceOnUse" width="420" height="420">
                         <image href="/img/blob-bg.jpg" x="0" y="0" width="420" height="420" />
                     </pattern>
                 </defs>
 
-                <Animation fill="blue" duration={7} />
+                <Animation fill="blue" duration={4} />
             </svg>
+
+            {/* <svg className="absolute top-0 left-2 opacity-20" viewBox="0 0 420 420">
+                <defs>
+                    <pattern id="bgImg" patternUnits="userSpaceOnUse" width="420" height="420">
+                        <image href="/img/blob-bg.jpg" x="0" y="0" width="420" height="420" />
+                    </pattern>
+                </defs>
+
+                <Animation fill="green" duration={10} />
+            </svg> */}
 
             <svg className="absolute top-0 left-0" viewBox="0 0 420 420">
                 <defs>
@@ -89,7 +91,7 @@ export default function Blob() {
                     </pattern>
                 </defs>
 
-                <Animation fill="url(#bgImg)" duration={8} />
+                <Animation fill="url(#bgImg)" duration={6} />
             </svg>
 
             <Image className="absolute top-0 left-0" src={frontPic} alt="Portrait background" />

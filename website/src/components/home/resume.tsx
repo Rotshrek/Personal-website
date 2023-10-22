@@ -4,9 +4,9 @@ import Blob from "@/components/home/blob"
 
 export default function Resume() {
     return (
-        <div id="curriculum" className="min-h-screen p-20 text-zinc-900">
-            <div className="flex">
-                <div className="mr-20 min-w-[200px]">
+        <div id="curriculum" className="min-h-screen p-12 md:p-20 text-zinc-900">
+            <div className="md:flex">
+                <div className="hidden md:block mr-20 min-w-[200px]">
                     <div className="mb-6">
                         <h2 className="text-2xl font-bold mb-4">Skills</h2>
                         <p className="max-w-xs text-lg">
@@ -97,6 +97,12 @@ export default function Resume() {
                                         <p>Universidad Alberto Hurtado (Santiago, Chile)</p>
                                     </div> */}
                         </div>
+                    </div>
+                    <div className="md:hidden mb-10">
+                        <h2 className="text-2xl font-bold mb-4">Skills</h2>
+                        <p className="max-w-xs text-lg">
+                            Javascript HTML CSS3 SASS React Redux AngularJS Material-UI Typescript Tailwind
+                        </p>
                     </div>
                     <div>
                         <h2 className="text-2xl font-bold mb-4">References</h2>

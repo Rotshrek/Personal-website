@@ -9,7 +9,7 @@ module.exports = {
         extend: {
             animation: {
                 "passive-glitch": "passive-distort 10s linear infinite",
-                "hover-glitch": "hover-distort 1s linear infinite",
+                "hover-glitch": "hover-distort 2s linear infinite",
                 "border-wave": "border-wave 1s linear infinite",
             },
             keyframes: {
