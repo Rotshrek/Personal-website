@@ -9,19 +9,19 @@ export default function Footer() {
                     <p className="mb-4">Gjøvik, Norway</p>
 
                     <p className="font-bold">Phone</p>
-                    <a href="tel:+4746548962" className="block mb-4 cursor-pointer">
+                    <a href="tel:+4746548962" className="cursor-pointer hover:text-green-600 duration-300">
                         46 54 89 62
                     </a>
 
-                    <p className="font-bold">Email</p>
-                    <a href="mailto:trazo263@gmail.com" className="block mb-4">
+                    <p className="mt-4 font-bold">Email</p>
+                    <a href="mailto:trazo263@gmail.com" className="hover:text-green-600 duration-300">
                         trazo263@gmail.com
                     </a>
 
-                    <p className="font-bold">LinkedIn</p>
+                    <p className="mt-4 font-bold">LinkedIn</p>
                     <a
                         href="https://www.linkedin.com/in/aisanhueza/?locale=en_US"
-                        className="block mb-4 cursor-pointer"
+                        className="ursor-pointer hover:text-green-600 duration-300"
                         target="_blank"
                         rel="noreferrer"
                     >

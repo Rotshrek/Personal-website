@@ -45,7 +45,7 @@ export default function QA() {
             </div>
 
             <div className="mt-20 text-center">
-                <a href="/" className="hover:animate-hover-glitch">
+                <a href="/" className="hover:text-green-700">
                     Back to home
                 </a>
             </div>

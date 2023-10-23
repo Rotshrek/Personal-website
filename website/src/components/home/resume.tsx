@@ -1,7 +1,5 @@
 "use client"
 
-import Blob from "@/components/home/blob"
-
 export default function Resume() {
     return (
         <div id="curriculum" className="min-h-screen p-12 md:p-20 text-zinc-900">
@@ -110,12 +108,18 @@ export default function Resume() {
                             <div className="mb-6">
                                 <p className="text-zinc-600 text-lg">
                                     <strong>Javier Torres</strong> (CEO at Conectter & Cheetrack)
-                                    <em className="text-zinc-400"> - English speaking</em>
+                                    <em className="text-zinc-500 text-sm"> - English speaking</em>
                                 </p>
-                                <a href="https://www.linkedin.com/in/javier-torres-cortes">
+                                <a
+                                    className="hover:text-green-600 duration-300"
+                                    href="https://www.linkedin.com/in/javier-torres-cortes"
+                                >
                                     linkedin.com/in/javier-torres-cortes
                                 </a>
-                                <a className="block" href="mailto:javier@cheetrack.com">
+                                <a
+                                    className="block hover:text-green-600 duration-300"
+                                    href="mailto:javier@cheetrack.com"
+                                >
                                     javier@cheetrack.com
                                 </a>
                             </div>
@@ -123,12 +127,18 @@ export default function Resume() {
                             <div className="mb-6">
                                 <p className="text-zinc-600 text-lg">
                                     <strong>Felipe Vergara</strong> (CTO at Conectter & Cheetrack)
-                                    <em className="text-zinc-400"> - English speaking</em>
+                                    <em className="text-zinc-500 text-sm"> - English speaking</em>
                                 </p>
-                                <a href="https://www.linkedin.com/in/felipe-vergara-4029104a">
+                                <a
+                                    className="hover:text-green-600 duration-300"
+                                    href="https://www.linkedin.com/in/felipe-vergara-4029104a"
+                                >
                                     linkedin.com/in/felipe-vergara-4029104a
                                 </a>
-                                <a className="block" href="mailto:felipe@cheetrack.com">
+                                <a
+                                    className="block hover:text-green-600 duration-300"
+                                    href="mailto:felipe@cheetrack.com"
+                                >
                                     felipe@cheetrack.com
                                 </a>
                             </div>
@@ -136,12 +146,18 @@ export default function Resume() {
                             <div className="mb-6">
                                 <p className="text-zinc-600 text-lg">
                                     <strong>Sergio Bustamante</strong> (Dev Ops and Lead Dev at Cheetrack)
-                                    <em className="text-zinc-400"> - English speaking</em>
+                                    <em className="text-zinc-500 text-sm"> - English speaking</em>
                                 </p>
-                                <a href="https://www.linkedin.com/in/bustamantemsergio">
+                                <a
+                                    className="hover:text-green-600 duration-300"
+                                    href="https://www.linkedin.com/in/bustamantemsergio"
+                                >
                                     linkedin.com/in/bustamantemsergio
                                 </a>
-                                <a className="block" href="mailto:sergio@cheetrack.com">
+                                <a
+                                    className="block hover:text-green-600 duration-300"
+                                    href="mailto:sergio@cheetrack.com"
+                                >
                                     sergio@cheetrack.com
                                 </a>
                             </div>
@@ -156,7 +172,7 @@ export default function Resume() {
             </div>
             <div className="mt-20">
                 <a
-                    className="px-6 py-2  w-fit block m-auto border-2 border-black hover:animate-hover-glitch"
+                    className="px-6 py-2 w-fit block m-auto border-2 border-black duration-500 hover:text-white hover:bg-zinc-700"
                     href="curriculum.pdf"
                 >
                     Download PDF

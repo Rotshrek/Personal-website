@@ -10,7 +10,7 @@ module.exports = {
             animation: {
                 "passive-glitch": "passive-distort 10s linear infinite",
                 "hover-glitch": "hover-distort 2s linear infinite",
-                "border-wave": "border-wave 1s linear infinite",
+                "aurora-borealis": "aurora-borealis 20s ease infinite",
             },
             keyframes: {
                 "passive-distort": {
@@ -68,10 +68,14 @@ module.exports = {
                     "90%, 95%": { "text-shadow": "none", transform: "none" },
                     "100%": { "text-shadow": "6px 6px 4px red, -8px -6px 4px red" },
                 },
-                "border-wave": {
-                    "0%": { "border-radius": "0%" },
-                    "50%": { "border-radius": "50%" },
-                    "100%": { "border-radius": "0%" },
+                "aurora-borealis": {
+                    "0%": { "background-position": "90% 100%", opacity: 0 },
+                    "10%": { "background-position": "90% 100%", opacity: 0 },
+                    "45%": { "background-position": "10% 0%", opacity: 0.6 },
+                    "50%": { "background-position": "10% 0%", opacity: 0.8 },
+                    "55%": { "background-position": "10% 0%", opacity: 0.6 },
+                    "90%": { "background-position": "90% 100%", opacity: 0 },
+                    "100%": { "background-position": "90% 100%", opacity: 0 },
                 },
             },
         },
