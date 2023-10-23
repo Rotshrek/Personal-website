@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer>
             <div id="contact" className="bg-zinc-900 text-white p-12 md:p-20">
-                <div>
+                <div className="m-auto max-w-3xl">
                     <p className="font-bold">Address</p>
                     <p className="mb-4">Gjøvik, Norway</p>
 
