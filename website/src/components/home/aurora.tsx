@@ -15,11 +15,11 @@
 export default function Aurora() {
     return (
         <div className="absolute top-0 left-0 w-full h-full">
-            <div className="absolute w-full h-full bg-gradient-to-tr from-zinc-700 via-zinc-700 to-[magenta] animate-[aurora-borealis_30s_ease_infinite] bg-[length:200%_200%]"/>
-            <div className="absolute w-full h-full bg-gradient-to-t from-zinc-700 via-zinc-700 to-[green] animate-[aurora-borealis_10s_ease_infinite] bg-[length:200%_200%]"/>
-            <div className="absolute w-full h-full bg-gradient-to-tl from-zinc-700 via-zinc-700 to-[#40E0D0] animate-aurora-borealis bg-[length:200%_200%]"/>
-            
-            <div className="absolute w-full h-full bg-gradient-to-t from-zinc-900 to-90% to-transparent"/>
+            <div className="absolute w-full h-full bg-gradient-to-tr from-zinc-700 via-zinc-700 to-[magenta] animate-[aurora-borealis_30s_ease_infinite] bg-[length:200%_200%]" />
+            <div className="absolute w-full h-full bg-gradient-to-t from-zinc-700 via-zinc-700 to-[green] animate-[aurora-borealis_10s_ease_infinite] bg-[length:200%_200%]" />
+            <div className="absolute w-full h-full bg-gradient-to-tl from-zinc-700 via-zinc-700 to-[#40E0D0] animate-aurora-borealis bg-[length:200%_200%]" />
+
+            <div className="absolute w-full h-full bg-gradient-to-t from-zinc-900 to-90% to-transparent" />
             {/* <div className="absolute w-full h-full opacity-40 bg-wave-pattern animate-aurora-borealis" />
 
             <svg className="absolute w-full h-full" viewBox="10 20 180 40">
