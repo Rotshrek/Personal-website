@@ -8,8 +8,41 @@ export default function Resume() {
                     <h2 className="text-2xl font-bold mb-4">Employment History</h2>
                     <div className="mb-6">
                         <div className="mb-2">
+                            <p className="text-zinc-600 font-bold text-lg">Olavstoppen</p>
+                            <p className="italic">FrontEnd Developer (Feb 2024 - Present)</p>
+                            <p className="italic">Stavanger, Norway </p>
+                        </div>
+                        <div>
+                            <p className="mb-2">
+                                Working as a FrontEnd Developer at Olavstoppen, a consultancy that specializes in
+                                FrontEnd Development and Design. As part of it I've worked on the SAPo project for
+                                Equinor.
+                            <p className="mb-2"> SAPo - Situational Awareness portal (Feb 2024 - Feb 2025)</p>
+                            <p className="mb-2">
+                                The Situational Awareness portal (SAPo) is a digital tool for enhancing situational awareness 
+                                in emergency and crisis management. Developed after the Melkøya fire, it is now part of 
+                                Equinor's emergency system. SAPo provides real-time, data-driven information through a 
+                                tactical board and advanced map functionality, ensuring fast and precise access to critical data.
+                            </p>
+                            <p className="mb-2">
+                                Worked mostly on a pilot run for offshore installations, where the main goal was to
+                                expand the map solution to include the visualization of the offshore installations and
+                                their surroundings. The 3D solution was built with Three.js and React, and it was
+                                integrated with the existing SAPo solution.
+                            </p>
+                            <p className="mb-2">
+                                The project used a Monorepo architecture with Turbo, was built in React and Redux, and used
+                                Equinor's UI system for components. The backend integration was done with GraphQL and
+                                Apollo Client. The project also used Jest and Cypress for unit and e2e testing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                 <div>
+                    <div className="mb-10">
+                        <div className="mb-2">
                             <p className="text-zinc-600 font-bold text-lg">Cheetrack</p>
-                            <p className="italic">Lead FrontEnd Developer (Feb 2021 - Present)</p>
+                            <p className="italic">Lead FrontEnd Developer (Feb 2021 - Oct 2023)</p>
                             <p className="italic">Santiago, Chile (Remote) </p>
                         </div>
                         <div>
@@ -21,26 +54,18 @@ export default function Resume() {
                             </p>
 
                             <p className="mb-2">
-                                Increased user engagement and reduced customer support burden by changing the focus to
-                                user self-service. This was achieved by working closely with the product team to gather
-                                user feedback and keeping track of user behavior. The result was a redesign of the front
-                                end of several features, and the beginning of an ongoing process of improving the user
-                                experience by reviewing the real usage of features after they are released.
+                                In 2022, the project focused on improving user engagement and reducing customer support 
+                                workload by shifting towards a user self-service approach. This involved close 
+                                collaboration with the product team to gather user feedback and analyze usage patterns. 
+                                As a result, several features were redesigned, initiating an ongoing process of 
+                                iterative UX improvements based on real-world usage.
                             </p>
 
                             <p className="mb-2">
-                                Worked closely with the design and sales team on feature design, giving both my
-                                perspective as a developer as well as a designer.
-                            </p>
-
-                            <p className="mb-2">
-                                Worked with the QA team to improve the testing process, implementing Sentry for error
-                                tracking and automated testing with Cypress.
-                            </p>
-
-                            <p className="mb-2">
-                                Worked closely with mobile developers on the mobile app currently deployed on the App
-                                Store and Google Play. The mobile app is built with React Native and Firebase.
+                                The project also involved enhancing quality assurance by implementing Sentry for error 
+                                tracking and Cypress for automated testing. Furthermore, contributions were made to 
+                                the mobile app, built with React Native and Firebase, ensuring feature 
+                                consistency across platforms.
                             </p>
                         </div>
                     </div>

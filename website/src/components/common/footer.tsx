@@ -6,7 +6,7 @@ export default function Footer() {
             <div id="contact" className="bg-zinc-900 text-white p-12 md:p-20">
                 <div className="m-auto max-w-3xl">
                     <p className="font-bold">Address</p>
-                    <p className="mb-4">Gjøvik, Norway</p>
+                    <p className="mb-4">Stavanger, Norway</p>
 
                     <p className="font-bold">Phone</p>
                     <a href="tel:+4746548962" className="cursor-pointer hover:text-green-600 duration-300">
