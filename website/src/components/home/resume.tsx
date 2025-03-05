@@ -15,14 +15,16 @@ export default function Resume() {
                         <div>
                             <p className="mb-2">
                                 Working as a FrontEnd Developer at Olavstoppen, a consultancy that specializes in
-                                FrontEnd Development and Design. As part of it I've worked on the SAPo project for
+                                FrontEnd Development and Design. As part of it I&apos;ve worked on the SAPo project for
                                 Equinor.
+                            </p>
                             <p className="mb-2"> SAPo - Situational Awareness portal (Feb 2024 - Feb 2025)</p>
                             <p className="mb-2">
-                                The Situational Awareness portal (SAPo) is a digital tool for enhancing situational awareness 
-                                in emergency and crisis management. Developed after the Melkøya fire, it is now part of 
-                                Equinor's emergency system. SAPo provides real-time, data-driven information through a 
-                                tactical board and advanced map functionality, ensuring fast and precise access to critical data.
+                                The Situational Awareness portal (SAPo) is a digital tool for enhancing situational
+                                awareness in emergency and crisis management. Developed after the Melkøya fire, it is
+                                now part of Equinor&apos;s emergency system. SAPo provides real-time, data-driven
+                                information through a tactical board and advanced map functionality, ensuring fast and
+                                precise access to critical data.
                             </p>
                             <p className="mb-2">
                                 Worked mostly on a pilot run for offshore installations, where the main goal was to
@@ -31,14 +33,15 @@ export default function Resume() {
                                 integrated with the existing SAPo solution.
                             </p>
                             <p className="mb-2">
-                                The project used a Monorepo architecture with Turbo, was built in React and Redux, and used
-                                Equinor's UI system for components. The backend integration was done with GraphQL and
-                                Apollo Client. The project also used Jest and Cypress for unit and e2e testing.
+                                The project used a Monorepo architecture with Turbo, was built in React and Redux, and
+                                used Equinor&apos;s UI system for components. The backend integration was done with
+                                GraphQL and Apollo Client. The project also used Jest and Cypress for unit and e2e
+                                testing.
                             </p>
                         </div>
                     </div>
                 </div>
-                 <div>
+                <div>
                     <div className="mb-10">
                         <div className="mb-2">
                             <p className="text-zinc-600 font-bold text-lg">Cheetrack</p>
@@ -54,18 +57,18 @@ export default function Resume() {
                             </p>
 
                             <p className="mb-2">
-                                In 2022, the project focused on improving user engagement and reducing customer support 
-                                workload by shifting towards a user self-service approach. This involved close 
-                                collaboration with the product team to gather user feedback and analyze usage patterns. 
-                                As a result, several features were redesigned, initiating an ongoing process of 
+                                In 2022, the project focused on improving user engagement and reducing customer support
+                                workload by shifting towards a user self-service approach. This involved close
+                                collaboration with the product team to gather user feedback and analyze usage patterns.
+                                As a result, several features were redesigned, initiating an ongoing process of
                                 iterative UX improvements based on real-world usage.
                             </p>
 
                             <p className="mb-2">
-                                The project also involved enhancing quality assurance by implementing Sentry for error 
-                                tracking and Cypress for automated testing. Furthermore, contributions were made to 
-                                the mobile app, built with React Native and Firebase, ensuring feature 
-                                consistency across platforms.
+                                The project also involved enhancing quality assurance by implementing Sentry for error
+                                tracking and Cypress for automated testing. Furthermore, contributions were made to the
+                                mobile app, built with React Native and Firebase, ensuring feature consistency across
+                                platforms.
                             </p>
                         </div>
                     </div>
@@ -176,14 +179,14 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
-            <div className="mt-20">
+            {/* <div className="mt-20">
                 <a
                     className="px-6 py-2 w-fit block m-auto border-2 border-black duration-500 hover:text-white hover:bg-zinc-700"
                     href="curriculum.pdf"
                 >
                     Download PDF
                 </a>
-            </div>
+            </div> */}
         </div>
     )
 }
